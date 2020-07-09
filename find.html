@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d620e8ba14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Find | Kakao Clone</title>
 </head>
 <body>
@@ -24,18 +25,18 @@
             <h1 class="header__title">Find</h1>
         </div>
         <div class="header__header-column">
-            <span class="header icon">
+            <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
-            <span class="header icon">
+            <span class="header__icon">
                 <i class="fas fa-cog"></i>
             </span>
         </div>
     </header>
     <main class="find">
         <header class="find__header">
-            <ul class="find__leader-list">
-                <li class="find__header_btn header-btn">
+            <ul class="find__header-list">
+                <li class="find__header-btn header-btn">
                     <span class="header-btn__icon">
                         <i class="fas fa-qrcode fa-2x"></i>
                     </span>
@@ -73,16 +74,16 @@
             <h5 class="find__title">
                 Recommended Friends
             </h5>
-            <li class="find__friend friend friend--lg">
+            <li class="find__friend friend">
                 <div class="friend__column">
-                    <img src="images/racoon.jpg" class="g-avatar friend__avartar">
+                    <img src="images/racoon.jpg" class="friend__avatar">
                         <div class="friend__content">
                         <span class="friend__name">
                             Mr.racoon
                         </span>
                         </div> 
                 </div>
-                <div class="frined__add-btn">
+                <div class="friend__add-btn">
                     <i class="fas fa-user-plus"></i>
                 </div>
             </li>    
@@ -110,5 +111,8 @@
                     <i class="fas fa-ellipsis-h"></i></a></li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small</span>
+    </div>
 </body>
 </html>

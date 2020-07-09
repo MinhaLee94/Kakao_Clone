@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d620e8ba14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Friends | Kakao Clone</title>
 </head>
 <body>
@@ -24,19 +25,19 @@
             <h1 class="header__title">Friends</h1>
         </div>
         <div class="header__header-column">
-            <span class="header icon">
+            <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
-            <span class="header icon">
+            <span class="header__icon">
                 <i class="fas fa-cog"></i>
             </span>
         </div>
     </header>
-    <main class="freinds">
+    <main class="friends">
         <header class="friends__header">
-            <div class="friends__friend friend friend--lg">
+            <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/racoon.jpg" class="g-avatar friend__avartar">
+                    <img src="images/racoon.jpg" class="m-avatar friend__avatar">
                         <div class="friend__content">
                         <span class="friend__name">
                             Mr.racoon
@@ -51,8 +52,8 @@
         <div class="friends__plus">
             <h5 class="friends__title">Plus friend</h5>
             <div class="friends__friend friend friend">
-                <div class="frined__column">
-                        <img src="images/racoon.jpg" class="g-avatar friend__avartar">
+                <div class="friend__column">
+                        <img src="images/racoon.jpg" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             Plus Friend
@@ -61,11 +62,11 @@
                 </div>
                 </div>
         </div>
-        <ul class="friendS__list">
+        <ul class="friends__list">
            <h5 class="friends__title">Friends 14</h5>
-           <li class="friends__friend friend friend--lg">
-               <div class="frined__column">
-                    <img src="images/racoon.jpg" class="g-avatar friend__avartar">
+           <li class="friends__friend friend">
+               <div class="friend__column">
+                    <img src="images/racoon.jpg" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             Mr.racoon
@@ -75,12 +76,12 @@
                         </span>
                     </div> 
                </div>
-               <div class="frined__column">
+               <div class="friend__column">
                    <div class="friend__now-listening">
                        <span>
-                        FTISLAND (FT Minha)
+                        Music Listening
+                        <i class="fas fa-play"></i>
                        </span>
-                       <i class="fas fa-play"></i>
                    </div>
                </div>
             </li>
@@ -108,5 +109,8 @@
                     <i class="fas fa-ellipsis-h"></i></a></li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small</span>
+    </div>
 </body>
 </html>
